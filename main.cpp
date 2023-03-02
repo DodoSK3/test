@@ -39,6 +39,28 @@ int main () {
         cout << "Vysledok po odcitani je: " << vysledok_odcitanie;
     }
 
+    if (volba == 3) {
+        cout << "Nasobenie" << endl;
+        cout << "Zadaj dve cisla pre nasobenie:";
+        int cislo1_nasobenie;
+        int cislo2_nasobenie;
+        cin >> cislo1_nasobenie >> cislo2_nasobenie;
+        cout << "Zadal si cisla: " << cislo1_nasobenie << " a " << cislo2_nasobenie << endl;
+        int vysledok_nasobenie = cislo1_nasobenie * cislo2_nasobenie;
+        cout << "Vysledok nasobenia je: " << vysledok_nasobenie;
+    }
+
+    if (volba == 4) {
+        cout << "Delenie" << endl;
+        cout << "Zadaj dve cisla pre delenie:";
+        int cislo1_delenie;
+        int cislo2_delenie;
+        cin >> cislo1_delenie >> cislo2_delenie;
+        cout << "Zadal si cisla: " << cislo1_delenie << " a " << cislo2_delenie << endl;
+        int vysledok_delenie = cislo1_delenie / cislo2_delenie;
+        cout << "Vysledok delenia je: " << vysledok_delenie;
+    }
+
 
 
     return 0;
